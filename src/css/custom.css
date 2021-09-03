@@ -49,3 +49,19 @@ html[data-theme='light'] .footer {
 .navbar__brand{
   height: 1.2rem;
 }
+
+pre {
+  background-color: inherit;
+}
+
+html[data-theme='dark'] .swagger-ui h2, p, span {
+  color: #fff !important;
+}
+
+html[data-theme='dark'] .swagger-ui .opblock-summary-description {
+  color: rgb(204, 204, 204) !important;
+}
+
+html[data-theme='dark'] .swagger-ui .opblock-section-header {
+  background-color: #0e1318 !important;
+}
