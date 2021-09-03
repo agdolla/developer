@@ -54,7 +54,7 @@ pre {
   background-color: inherit;
 }
 
-html[data-theme='dark'] .swagger-ui h2, p, span {
+/* html[data-theme='dark'] .swagger-ui h2, p, span {
   color: #fff !important;
 }
 
@@ -64,4 +64,4 @@ html[data-theme='dark'] .swagger-ui .opblock-summary-description {
 
 html[data-theme='dark'] .swagger-ui .opblock-section-header {
   background-color: #0e1318 !important;
-}
+} */
