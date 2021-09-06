@@ -12,11 +12,13 @@ html[data-theme="dark"] {
   background-color: #111111;
 }
 
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #039be5;
   --ifm-code-font-size: 95%;
 }
+
 
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
@@ -65,3 +67,62 @@ html[data-theme='dark'] .swagger-ui .opblock-summary-description {
 html[data-theme='dark'] .swagger-ui .opblock-section-header {
   background-color: #0e1318 !important;
 } */
+
+@media only screen and (max-width: 600px) {
+  .opblock-tag, .swagger-ui .auth-wrapper, .swagger-ui .opblock .opblock-summary, .swagger-ui .scheme-container .schemes{
+    display: block !important
+  }
+
+  .swagger-ui .opblock .opblock-summary-path{
+    max-width: 100% !important;
+  }
+
+  .swagger-ui .servers>label select, .opblock-summary-control, .swagger-ui .auth-wrapper .authorize, .swagger-ui .model-box-control, .swagger-ui .models-control, .swagger-ui .opblock-summary-control{
+    width: 100% !important
+  }
+
+  .opblock-summary-control .arrow{
+    display: none;
+  }
+
+  .swagger-ui .opblock .opblock-summary-operation-id, .swagger-ui .opblock .opblock-summary-path, .swagger-ui .opblock .opblock-summary-path__deprecated{
+    padding: 14px 0px !important;
+  }
+  
+  .swagger-ui .servers>label select{
+    margin: 14px 0px !important
+  }
+
+  .opblock-tag{
+    position: relative;
+  }
+
+  .expand-operation{
+    position: absolute;
+    right: 6px;
+    top: calc(50% - 16px);
+  }
+
+  .swagger-ui .opblock{
+    border-radius: 0px !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding: 8px;
+  }
+
+  .opblock-section{
+    margin: 10px -8px; 
+  }
+
+  /* remove padding */
+  .swagger-ui .wrapper{
+    padding: 0 !important
+  }
+
+  .scheme-container, .swagger-ui .info{
+    padding: 16px !important;
+    margin: 0 !important
+  }
+
+
+}
