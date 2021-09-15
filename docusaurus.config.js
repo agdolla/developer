@@ -20,18 +20,18 @@ module.exports = {
         srcDark: 'img/logo-white.svg'
       },
       items: [
-        {href: 'https://docs.calendso.com', label: 'Product Documentation', position: 'left'},
+        {href: 'https://docs.calendso.com', label: 'Product Docs', position: 'left'},
         {
           type: 'doc',
           docId: 'code-styling',
           position: 'left',
-          label: 'Developer Documentation',
+          label: 'Developer',
         },
-        {href: 'https://design.calendso.com', label: 'Design Documentation', position: 'left'},
+        {href: 'https://design.calendso.com', label: 'Design', position: 'left'},
         {
           href: '/api',
           position: 'left',
-          label: 'API Documentation',
+          label: 'API',
         },
         {
           href: 'https://github.com/calendso/calendso',
@@ -91,7 +91,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Meet Technologies, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cal.com, Inc.`,
     },
     prism: {
       theme: lightCodeTheme,
