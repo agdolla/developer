@@ -1,5 +1,5 @@
 # Database Migrations
-As described in the [upgrade guide](https://docs.calendso.com/self-hosting/upgrading.md), you should use the `npx prisma migrate dev` or `npx prisma migrate deploy` command to update the database.
+As described in the [upgrade guide](https://docs.cal.com/self-hosting/upgrading.md), you should use the `npx prisma migrate dev` or `npx prisma migrate deploy` command to update the database.
 
 We use database migrations in order to handle changes to the database schema in a more secure and stable way. This is actually very common. The thing is that when just changing the schema in `schema.prisma` without creating migrations, the update to the newer database schema can damage or delete all data in production mode, since the system sometimes doesn't know how to transform the data from A to B. Using migrations, each step is reproducable, transparent and can be undone in a simple way.
 

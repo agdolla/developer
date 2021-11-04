@@ -3,9 +3,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Calendso Developer Documentation',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://docs.calendso.com',
+  title: 'Cal.com Developer Documentation',
+  tagline: 'Open Scheduling',
+  url: 'https://docs.cal.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -15,24 +15,19 @@ module.exports = {
   themeConfig: {
     navbar: {
       logo: {
-        alt: 'Calendso Logo',
+        alt: 'Cal.com Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-white.svg'
       },
       items: [
-        {href: 'https://docs.calendso.com', label: 'Product Docs', position: 'left'},
+        {href: 'https://docs.cal.com', label: 'Product Docs', position: 'left'},
         {
           type: 'doc',
           docId: 'code-styling',
           position: 'left',
           label: 'Developer',
         },
-        {href: 'https://design.calendso.com', label: 'Design', position: 'left'},
-        {
-          href: '/api',
-          position: 'left',
-          label: 'API',
-        },
+        {href: 'https://design.cal.com', label: 'Design', position: 'left'},
         {
           href: 'https://github.com/calendso/calendso',
           label: 'GitHub',
@@ -48,15 +43,15 @@ module.exports = {
           items: [
             {
               label: 'Website',
-              href: 'https://calendso.com',
+              href: 'https://cal.com',
             },
             {
               label: 'Slack',
-              href: 'https://calendso.com/slack',
+              href: 'https://cal.com/slack',
             },
             {
               label: 'Careers',
-              href: 'https://calendso.com/jobs',
+              href: 'https://cal.com/jobs',
             },
           ],
         },
@@ -64,7 +59,7 @@ module.exports = {
           title: 'Repositories',
           items: [
             {
-              label: 'Calendso',
+              label: 'Cal.com',
               href: 'https://github.com/calendso/calendso',
             },
             {
